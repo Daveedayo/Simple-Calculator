@@ -1,12 +1,21 @@
-def add(num1, num2):
-    return num1 + num2
+import sys
 
-def subtract(num1, num2):
-    return num1 - num2
+def add(number_1, number_2):
+    return number_1 + number_2
 
-def multiply(num1, num2):
-    return num1 * num2
+def subtract(number_1, number_2):
+    return number_1 - number_2
 
-def divide(num1, num2):
-    return num1 / num2
+def multiply(number_1, number_2):
+    return number_1 * number_2
+
+def divide(number_1, number_2):
+    return number_1 / number_2
+
+print("Please select an operation: \n"
+    "1. Addition\n"
+    "2. Subtraction\n"
+    "3. Multiplication\n"
+    "4. Division\n"
+)
 
